@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+/* .flexLineAndScreen{
+    display: flex;
+    height: calc(100% - 50px);
+} */
+
+/* .app{
+    background-attachment: fixed;
+    height: 100vh;
+} */
+/* ::-webkit-scrollbar { chrome based 
+    width: 0px;  ширина scrollbar'
+    background: transparent;
+} */
+
+
