@@ -1,11 +1,11 @@
-import { useRouter } from 'next/router'
 import {useSelector} from 'react-redux'
-import Logo from './Logo'
-import style from '../../styles/main.module.css'
+import { useHistory } from 'react-router' 
+import style from '../styles/main.module.css'
+import Logo from '../component/Main/Logo'
 
 const Main = () => {
     const profile = useSelector(({profile}) => profile)
-    const route = useRouter()
+    const route = useHistory()
     const routeHandler = (e) =>{
         e.preventDefault()
         route.push(profile.id ? '/home' : '/auth')
